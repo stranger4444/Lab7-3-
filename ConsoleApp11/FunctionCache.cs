@@ -47,11 +47,6 @@ namespace ConsoleApp11
             }
         }
 
-        internal int GetOrAdd(string key1, System.Func<string, int> expensiveFunction)
-        {
-            throw new NotImplementedException();
-        }
-
         private class CacheItem
         {
             public CacheItem(TResult value)
